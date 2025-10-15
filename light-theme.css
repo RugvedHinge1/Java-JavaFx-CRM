@@ -1,0 +1,142 @@
+.root {
+    -fx-background-color: #ffffff;
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.dashboard-grid {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+}
+
+.control-box {
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 15px;
+    -fx-spacing: 10px;
+    -fx-background-radius: 4px;
+}
+
+.color-picker {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 4px;
+}
+
+.color-picker .color-picker-label {
+    -fx-text-fill: #333333;
+}
+
+.custom-chart {
+    -fx-background-radius: 4px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 2);
+}
+
+.tab-pane {
+    -fx-tab-min-width: 120px;
+    -fx-background-color: #ffffff;
+}
+
+.tab {
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 10px 20px;
+}
+
+.tab:selected {
+    -fx-background-color: #2196F3;
+}
+
+.tab-label {
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #ffffff;
+}
+
+.chart {
+    -fx-padding: 20px;
+    -fx-background-color: #ffffff;
+}
+
+.chart-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.button {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #1976D2;
+}
+
+.text-field {
+    -fx-padding: 8px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+    -fx-border-color: #e0e0e0;
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+}
+
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f5f5f5;
+    -fx-padding: 10px;
+    -fx-text-fill: #333333;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #333333;
+}
+
+.list-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+}
+
+.list-cell {
+    -fx-padding: 8px;
+    -fx-text-fill: #333333;
+}
+
+.list-cell:hover {
+    -fx-background-color: #f5f5f5;
+}
+
+.scroll-bar {
+    -fx-background-color: #ffffff;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #bdbdbd;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #ffffff;
+}
+
+.dialog-pane {
+    -fx-background-color: #ffffff;
+}
+
+.dialog-pane .content {
+    -fx-text-fill: #333333;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #f5f5f5;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-text-fill: #333333;
+}
